@@ -2,18 +2,41 @@
    COLORS / SETTINGS
    ========================================================================== */
 
-:root {
+   :root {
     // Couleur de base
     --color-white: #fff;
-    --color-black: #0c0f0a;
+    --color-black: #000000;
 
     // Couleurs du projet
-    --color-primary: #c3d898;
-    --color-primary-darker: #285943;
-    --color-secondary: #eb8258;
+    --color-primary-darker: rgba(98, 198, 19, 0.17);
+    --color-primary: rgba(98, 198, 19, 1);
+    --color-secondary: #f1efed;
 
     --color-neutral-light: #eeeeee;
-    --color-neutral-dark: #888888;
+    --color-neutral-dark: #2f2f2f;
+    --color-hero-media-bg: #303030;
 
-    --color-fail: #f6511d;
+    --color-nav-detail: #e1e1e1;
+
+
+    
+    //Couleurs typo du projet
+    --color-type-cp: #878585;
+
+
+
 }
+
+//:root {
+//    --bleu-principal: rgba(217, 217, 217, 1);
+//    --noir: rgba(0, 0, 0, 1);
+//    --gris-1: rgba(135, 133, 133, 1);
+//    --blanc: rgba(255, 255, 255, 1);
+//    --gris-clair: rgba(225, 225, 225, 1);
+//    --bleu-ciel: rgba(4, 99, 211, 0.33);
+//    --bleu-choisir: rgba(20, 123, 167, 1);
+//    --vert-2: rgba(98, 198, 19, 0.17);
+//    --vert-1: rgba(98, 198, 19, 1);
+//
+//}
+

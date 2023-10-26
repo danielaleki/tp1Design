@@ -3,11 +3,34 @@
    Style de base de tous les liens et bouton du site
    ========================================================================== */
 
-a {
+   a {
     color: inherit;
     text-decoration: none;
 
     &:hover {
         color: var(--color-secondary);
     }
+}
+
+.button, .button2{
+
+    display:inline-flex; //pour centrer le contenu d'1 contenant en devenant flexible
+    justify-content: center;
+    align-items: center;
+
+    background-color:var(--color-primary); //!!!!A mettre à  jour!!!!!
+    /* offset-x | offset-y | blur-radius | spread-radius | color
+    Aller voir un box-shaow generator*/
+    box-shadow: 6px 9px 15px 5px rgba(0,13,81,0.20);
+
+    padding: 25px;
+    border-radius: 22px;
+
+    color:var(--color-white);
+
+    cursor: pointer;
+}
+
+.button:hover{
+    color: var(--color-black);
 }
