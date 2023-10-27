@@ -1,5 +1,5 @@
 .hero{
-    padding: 20px;
+    padding-top: 20px;
 
     .wrapper{
         display: flex;
@@ -9,7 +9,7 @@
 }
 
 .hero_media{
-    width: 50%;
+    width: 60%;
     background-color: var(--color-hero-media-bg);
     flex: 1;
 
@@ -41,15 +41,17 @@
 }
 
 .hero_content{
-    width: 50%;
+    width: 40%;
     margin: 40px;
     flex: 1;
 
     .button{
+        
         background-image: var(--color-primary);
         color: var(--color-white);
         width: 300px;
         height: 50px;
+        bottom: 0px;
         font-size: 23px;
     }
 }
@@ -58,7 +60,7 @@
     color: var(--color-black);
 }
 
-.social-icons{
+.social-icons1{
     display: flex;
     justify-content: flex-end;
     margin-bottom: 20px;

@@ -65,7 +65,7 @@ ul {
 }
 
 select {
-    background-color: #222;
+    background-color: var(--color-footer-select);
     color: var(--color-white);
     border: none;
     padding: 5px 10px;
